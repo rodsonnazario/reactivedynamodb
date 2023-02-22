@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: local
+
+aws:
+  region: us-east-1
+  dynamodb:
+    endpoint: http://localhost:4566
